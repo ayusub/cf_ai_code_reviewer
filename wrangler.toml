@@ -1,0 +1,15 @@
+name = "cf-ai-code-reviewer"
+main = "src/index.js"
+compatibility_date = "2024-10-01"
+
+[ai]
+binding = "AI"
+
+[[durable_objects.bindings]]
+name = "CODE_REVIEW_MEMORY"
+class_name = "CodeReviewMemory"
+script_name = "cf-ai-code-reviewer"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["CodeReviewMemory"]
