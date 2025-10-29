@@ -50,7 +50,7 @@ An AI-powered code review assistant built on Cloudflare's edge computing platfor
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone git@github.com:ayusub/cf_ai_code_review
    cd cf_ai_code_reviewer
    ```
 
